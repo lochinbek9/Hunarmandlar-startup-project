@@ -1,3 +1,4 @@
+import Hero from "../../components/Hero/Hero"
 import Navbar from "../../components/Navbar/Navbar"
 import "./Home.css"
 
@@ -6,7 +7,7 @@ function Home() {
     <>
       <header>
         <Navbar/>
-      
+        <Hero/>
       </header>
     </>
   )
