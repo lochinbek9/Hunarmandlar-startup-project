@@ -8,7 +8,7 @@ function Hero() {
        <p className="hero__subtitle">
        Milliy hunarmandlik buyumlarini online soting va sotib oling
        </p>
-         <a href="#products" className="btn hero__btn">
+         <a href="#" className="btn hero__btn">
          Ro‘yxatdan o‘ting
             </a>
        </div>

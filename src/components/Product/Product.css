@@ -1,0 +1,49 @@
+
+  
+.product-section{
+    background: url(/img/product.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.product-card{
+    padding: 20px;
+}
+
+.product-title{
+    padding: 10px 0;
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #CD8545;
+
+}
+.product-number{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #CD8545;
+}
+.half-lower {
+    transform: translateY(50%);
+}
+  
+
+.half-lower {
+    transform: translateY(50%);
+    transition: transform 0.3s ease;
+  }
+  
+  .left-border {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 600px;
+    background-color: #CD8545; /* Tailwind'dagi blue-600 */
+    content: "";
+  }
+  

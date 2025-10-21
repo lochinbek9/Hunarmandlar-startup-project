@@ -1,3 +1,5 @@
 header{
   background: url(/img/hero-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
