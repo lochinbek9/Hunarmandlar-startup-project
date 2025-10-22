@@ -1,6 +1,7 @@
 import Hero from "../../components/Hero/Hero"
 import Navbar from "../../components/Navbar/Navbar"
 import ProductGrid from "../../components/Product/Product"
+import TopProduct from "../../components/TopProduct/TopProduct"
 import "./Home.css"
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
         <Navbar/>
         <Hero/>
         <ProductGrid/>
+        <TopProduct/>
       </header>
     </>
   )

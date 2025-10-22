@@ -50,7 +50,7 @@ const Product = () => {
   return (
     <section className="product-section relative">
       <div className="container mx-auto py-12 px-4">
-        <h2 className="text-3xl font-bold text-center mb-10">Mahsulotlar</h2>
+        <h2 className="text-3xl font-bold text-center mb-10">Qanday maxsulot izlamoqdasiz?</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 relative">
           {products.map((item, index) => (
@@ -73,7 +73,7 @@ const Product = () => {
               <p className="text-gray-600 mb-6">{item.description}</p>
               <a
                 href="#"
-                className="mt-auto text-blue-600 font-medium hover:underline"
+                className="mt-auto text-blue-600 font-medium border-2 border-b-neutral-400 hover:underline"
               >
                 Mahsulotni ko‘rish →
               </a>
